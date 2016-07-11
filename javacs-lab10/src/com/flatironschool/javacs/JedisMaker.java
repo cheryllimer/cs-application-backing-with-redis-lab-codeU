@@ -28,7 +28,7 @@ public class JedisMaker {
 		String filename = "resources" + slash + "redis_url.txt";
 
 		URL fileURL = JedisMaker.class.getClassLoader().getResource(filename);
-                String filepath = URLDecoder.decode(fileURL.getFile(), "UTF-8");
+    String filepath = URLDecoder.decode(fileURL.getFile(), "UTF-8");
 		StringBuilder sb = new StringBuilder();
 
 		BufferedReader br;
